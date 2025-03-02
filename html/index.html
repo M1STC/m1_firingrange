@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firing Range Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div id="background-blur"></div>
+
+
+    <div id="menu">
+        <h2>Firing Range</h2>
+        <button onclick="startFiringRange()">Start Firing Range</button>
+        <button onclick="stopFiringRange()">Stop Firing Range</button>
+        <button onclick="closeMenu()">Close Menu</button>
+
+      
+        <div id="leaderboard">
+            <h3>Leaderboard</h3>
+            <ul id="leaderboard-list">
+                <li>Loading...</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
